@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شكراً لك</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* ضع رابط الخلفية هنا بدلًا من الرابط الحالي */
+            background: url('https://example.com/your-background-image.jpg') center/cover no-repeat;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .thank-you-box {
+            background-color: rgba(144, 238, 144, 0.9);
+            padding: 2rem 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(50, 205, 50, 0.3);
+            text-align: center;
+            max-width: 80%;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        h1 {
+            color: #2d6a4f;
+            font-size: 2em;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            color: #1b4332;
+            font-size: 1.2em;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .thank-you-box {
+                padding: 1.5rem 2rem;
+            }
+            
+            h1 {
+                font-size: 1.7em;
+            }
+            
+            p {
+                font-size: 1.7em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-box">
+        <h1>نجاح الإرسال</h1>
+        <p>ستنظر مصالح التجارة في انشغالك</p>
+    </div>
+</body>
+</html>
